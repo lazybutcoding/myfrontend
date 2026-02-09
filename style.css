@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.strength-bar {
+  height: 8px;
+  background: #444;
+  border-radius: 5px;
+}
+
+.strength-bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#message {
+  margin-top: 10px;
+}
